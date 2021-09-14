@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcbedev.kancolle.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "KancolleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

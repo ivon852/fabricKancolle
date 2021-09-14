@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "kancollemod",
+  "version": "${version}",
+  "name": "Kancolle Mod",
+  "description": "Kancolle Add-On Fabric version.",
+  "authors": [
+    "Ivon852"
+  ],
+  "contact": {
+    "homepage": "https://twitter.com/ivon852",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/kancollemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcbedev.kancolle.Main"
+    ]
+  },
+  "mixins": [
+    "kancollemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
