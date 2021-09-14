@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "net.mcbedev.kancolle.Main"
+    ],
+    "client": [
+      "net.mcbedev.kancolle.client.EntityClient"
     ]
   },
   "mixins": [

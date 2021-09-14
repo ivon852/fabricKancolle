@@ -8,7 +8,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    // 註冊物品"Admiral Cap"
+    // 註冊物品new Admiral Cap，再在各個檔案實作功能
     public static final Item ADMIRAL_CAP = registerItem("admiral_cap",
             new admiral_cap(new FabricItemSettings().group(ModItemGroup.KANMUSU)));
 
