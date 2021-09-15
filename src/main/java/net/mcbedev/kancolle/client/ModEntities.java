@@ -2,7 +2,7 @@ package net.mcbedev.kancolle.client;
 
 import net.mcbedev.kancolle.Main;
 
-public class ModEntities extends Main{
+public class ModEntities{
 
     // 開始註冊程序
 
