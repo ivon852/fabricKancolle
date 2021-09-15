@@ -1,0 +1,13 @@
+{
+  "entity.shimakaze.hurt": {
+    "subtitle": "subtitles.kanmusu.shimakaze.hurt",
+    "category": "neutral",
+    "sounds": [
+      "mob/shimakaze/hurt",
+      "mob/shimakaze/hurt2",
+      "mob/shimakaze/hurt3",
+      "mob/shimakaze/hurt4",
+      "mob/shimakaze/hurt5"
+    ]
+  }
+}
