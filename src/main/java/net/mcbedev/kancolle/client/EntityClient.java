@@ -18,15 +18,13 @@ public class EntityClient implements ClientModInitializer {
     public static final EntityModelLayer MODEL_CUBE_LAYER = new EntityModelLayer(new Identifier(Main.MOD_ID, "cube"),
             "main");
 
-            public static final EntityModelLayer MODEL_SHIMAKAZE_LAYER = new EntityModelLayer(new Identifier(Main.MOD_ID, "shimakaze"),
-            "main");
 
     @Override
     public void onInitializeClient() {
-        EntityRendererRegistryImpl.register(Main.CUBE, CubeEntityRenderer::new);
+        EntityRendererRegistryImpl.register(ModEntities.CUBE, CubeEntityRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(MODEL_CUBE_LAYER, CubeEntityModel::getTexturedModelData);
 
-        EntityRendererRegistryImpl.register(Main.SHIMAKAZE, ShimakazeRenderer::new);
+        EntityRendererRegistryImpl.register(ModEntities.SHIMAKAZE, ShimakazeRenderer::new);
 
     }
 }
