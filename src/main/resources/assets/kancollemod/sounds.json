@@ -1,13 +1,64 @@
 {
-  "entity.shimakaze.hurt": {
-    "subtitle": "subtitles.kanmusu.shimakaze.hurt",
+  "entity.shimakaze.say": {
+    "subtitle": "subtitles.entity.shimakaze.say",
+    "pitch": 1.0,
     "category": "neutral",
     "sounds": [
-      "mob/shimakaze/hurt",
-      "mob/shimakaze/hurt2",
-      "mob/shimakaze/hurt3",
-      "mob/shimakaze/hurt4",
-      "mob/shimakaze/hurt5"
+      "kancollemod:mob/shimakaze/say"
+    ]
+  },
+  "entity.shimakaze.say2": {
+    "subtitle": "subtitles.entity.shimakaze.say2",
+    "pitch": 1.0,
+    "category": "neutral",
+    "sounds": [
+      "kancollemod:mob/shimakaze/say2"
+    ]
+  },
+  "entity.shimakaze.say3": {
+    "subtitle": "subtitles.entity.shimakaze.say3",
+    "pitch": 1.0,
+    "category": "neutral",
+    "sounds": [
+      "kancollemod:mob/shimakaze/say3"
+    ]
+  },
+  "entity.shimakaze.say4": {
+    "subtitle": "subtitles.entity.shimakaze.say3",
+    "pitch": 1.0,
+    "category": "neutral",
+    "sounds": [
+      "kancollemod:mob/shimakaze/say4"
+    ]
+  },
+  "entity.shimakaze.hurt": {
+    "subtitle": "subtitles.entity.shimakaze.hurt",
+    "pitch": 1.0,
+    "category": "neutral",
+    "sounds": [
+      "kancollemod:mob/shimakaze/hurt",
+      "kancollemod:mob/shimakaze/hurt2",
+      "kancollemod:mob/shimakaze/hurt3",
+      "kancollemod:mob/shimakaze/hurt4",
+      "kancollemod:mob/shimakaze/hurt5"
+    ]
+  },
+  "entity.shimakaze.attack": {
+    "subtitle": "subtitles.entity.shimakaze.death",
+    "pitch": 1.0,
+    "category": "neutral",
+    "sounds": [
+      "kancollemod:mob/shimakaze/attack",
+      "kancollemod:mob/shimakaze/attack2",
+      "kancollemod:mob/shimakaze/attack3"
+    ]
+  },
+  "entity.shimakaze.death": {
+    "subtitle": "subtitles.entity.shimakaze.death",
+    "pitch": 1.0,
+    "category": "neutral",
+    "sounds": [
+      "kancollemod:mob/shimakaze/death"
     ]
   }
 }

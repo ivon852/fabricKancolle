@@ -8,5 +8,6 @@ import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 public class ShimakazeRenderer extends GeoEntityRenderer<ShimakazeEntity> {
     public ShimakazeRenderer(EntityRendererFactory.Context renderManager) {
         super(renderManager, new ShimakazeEntityModel());
+        this.shadowRadius = 0.5F;
     }
 }
