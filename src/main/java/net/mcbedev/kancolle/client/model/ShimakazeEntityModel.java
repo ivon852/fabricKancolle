@@ -8,7 +8,7 @@ public class ShimakazeEntityModel extends AnimatedGeoModel<ShimakazeEntity> {
 
     @Override
     public Identifier getModelLocation(ShimakazeEntity object) {
-        return new Identifier("kancollemod", "geo/shimakaze.json");
+        return new Identifier("kancollemod", "geo/kanmusu/shimakaze.geo.json");
     }
 
     @Override
@@ -18,6 +18,6 @@ public class ShimakazeEntityModel extends AnimatedGeoModel<ShimakazeEntity> {
 
     @Override
     public Identifier getAnimationFileLocation(ShimakazeEntity animatable) {
-        return new Identifier("kancollemod", "animations/shimakaze.animation.json");
+        return new Identifier("kancollemod", "animations/kanmusu/shimakaze.animation.json");
     }
 }

@@ -2,6 +2,7 @@ package net.mcbedev.kancolle.client.entity;
 
 import net.mcbedev.kancolle.client.ModSoundEvents;
 import net.mcbedev.kancolle.item.ModItems;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;

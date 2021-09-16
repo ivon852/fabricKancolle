@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.mcbedev.kancolle.Main;
 import net.mcbedev.kancolle.client.entity.ShimakazeEntity;
+import net.mcbedev.kancolle.client.entity.TorpedoEntity;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -22,17 +23,18 @@ public class ModEntities {
       new Identifier("kanmusu", "shimakaze"), FabricEntityTypeBuilder
           .create(SpawnGroup.CREATURE, ShimakazeEntity::new).fireImmune().dimensions(EntityDimensions.fixed(1.2567f, 1.21f).scaled(1)).build());
 
+  public static final EntityType<TorpedoEntity> TORPEDO= Registry.register(Registry.ENTITY_TYPE,
+          new Identifier("newmob", "torpedo"), FabricEntityTypeBuilder
+                  .create(SpawnGroup.CREATURE, TorpedoEntity::new).fireImmune().dimensions(EntityDimensions.fixed(0.9f,
+                          0.1f).scaled(1)).build());
+
 
   public static void registerEntities() {
     /*
     註冊實體屬性，藉由各自實體的CreateAttribute()方法來註冊基本屬性。
      */
     FabricDefaultAttributeRegistry.register(SHIMAKAZE, ShimakazeEntity.createShimakazeAttributes());
-
-    /*
-    註冊實體音效
-     */
-
+    FabricDefaultAttributeRegistry.register(TORPEDO, TorpedoEntity.createMobAttributes());
 
     System.out.println("Registering mod mobs for" + Main.MOD_ID);
   }
