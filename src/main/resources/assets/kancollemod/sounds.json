@@ -1,40 +1,40 @@
 {
   "entity.shimakaze.say": {
     "subtitle": "subtitles.entity.shimakaze.say",
-    "pitch": 1.0,
     "category": "neutral",
+    "pitch": 1.0,
     "sounds": [
       "kancollemod:mob/kanmusu/shimakaze/say"
     ]
   },
   "entity.shimakaze.say2": {
     "subtitle": "subtitles.entity.shimakaze.say2",
-    "pitch": 1.0,
     "category": "neutral",
+    "pitch": 1.0,
     "sounds": [
       "kancollemod:mob/kanmusu/shimakaze/say2"
     ]
   },
   "entity.shimakaze.say3": {
     "subtitle": "subtitles.entity.shimakaze.say3",
-    "pitch": 1.0,
     "category": "neutral",
+    "pitch": 1.0,
     "sounds": [
-      "kancollemod:mob/kanmusu/shimakaze/say3"
+      "kancollemod:mob/kanmusu/shimakaze/say3",
     ]
   },
   "entity.shimakaze.say4": {
     "subtitle": "subtitles.entity.shimakaze.say3",
-    "pitch": 1.0,
     "category": "neutral",
+    "pitch": 1.0,
     "sounds": [
       "kancollemod:mob/kanmusu/shimakaze/say4"
     ]
   },
   "entity.shimakaze.hurt": {
     "subtitle": "subtitles.entity.shimakaze.hurt",
-    "pitch": 1.0,
     "category": "neutral",
+    "pitch": 1.0,
     "sounds": [
       "kancollemod:mob/kanmusu/shimakaze/hurt",
       "kancollemod:mob/kanmusu/shimakaze/hurt2",
@@ -45,8 +45,8 @@
   },
   "entity.shimakaze.attack": {
     "subtitle": "subtitles.entity.shimakaze.death",
-    "pitch": 1.0,
     "category": "neutral",
+    "pitch": 1.0,
     "sounds": [
       "kancollemod:mob/kanmusu/shimakaze/attack",
       "kancollemod:mob/kanmusu/shimakaze/attack2",
@@ -55,8 +55,8 @@
   },
   "entity.shimakaze.death": {
     "subtitle": "subtitles.entity.shimakaze.death",
-    "pitch": 1.0,
     "category": "neutral",
+    "pitch": 1.0,
     "sounds": [
       "kancollemod:mob/kanmusu/shimakaze/death"
     ]
