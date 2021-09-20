@@ -20,7 +20,7 @@
     "category": "neutral",
     "pitch": 1.0,
     "sounds": [
-      "kancollemod:mob/kanmusu/shimakaze/say3",
+      "kancollemod:mob/kanmusu/shimakaze/say3"
     ]
   },
   "entity.shimakaze.say4": {
@@ -34,9 +34,13 @@
   "entity.shimakaze.hurt": {
     "subtitle": "subtitles.entity.shimakaze.hurt",
     "category": "neutral",
-    "pitch": 1.0,
+    "replace": true,
     "sounds": [
-      "kancollemod:mob/kanmusu/shimakaze/hurt",
+      {
+        "name": "kancollemod:mob/kanmusu/shimakaze/hurt",
+        "pitch": 1,
+        "attenuation_distance": 5
+      },
       "kancollemod:mob/kanmusu/shimakaze/hurt2",
       "kancollemod:mob/kanmusu/shimakaze/hurt3",
       "kancollemod:mob/kanmusu/shimakaze/hurt4",
@@ -44,7 +48,7 @@
     ]
   },
   "entity.shimakaze.attack": {
-    "subtitle": "subtitles.entity.shimakaze.death",
+    "subtitle": "subtitles.entity.shimakaze.attack",
     "category": "neutral",
     "pitch": 1.0,
     "sounds": [

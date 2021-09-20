@@ -8,36 +8,32 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.hit.EntityHitResult;
-import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.world.GameRules;
 import net.minecraft.world.World;
-import net.minecraft.world.explosion.Explosion;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
 
-public class TorpedoEntity extends PersistentProjectileEntity implements IAnimatable {
+public class Shell127cmEntity extends PersistentProjectileEntity implements IAnimatable {
     protected int timeInAir;
     protected boolean inAir;
     private int ticksInAir;
     private static float bulletdamage;
 
 
-    public TorpedoEntity(EntityType<? extends TorpedoEntity> entityType, World worldIn) {
+    public Shell127cmEntity(EntityType<? extends Shell127cmEntity> entityType, World worldIn) {
         super(entityType, worldIn);
-        this.pickupType = PersistentProjectileEntity.PickupPermission.DISALLOWED;
+        this.pickupType = PickupPermission.DISALLOWED;
     }
 
 
-    public TorpedoEntity(World world, LivingEntity owner) {
-        this(ModEntities.TORPEDO, world);
+    public Shell127cmEntity(World world, LivingEntity owner) {
+        this(ModEntities.SHELL_127_CM, world);
         this.setOwner(owner);
         this.setPosition(owner.getX() - (double)(owner.getWidth() + 1.0F) * 0.5D * (double)MathHelper.sin(owner.bodyYaw * 0.017453292F), owner.getEyeY() - 0.10000000149011612D, owner.getZ() + (double)(owner.getWidth() + 1.0F) * 0.5D * (double)MathHelper.cos(owner.bodyYaw * 0.017453292F));
     }
 
-    protected TorpedoEntity(EntityType<? extends TorpedoEntity> type, double x, double y, double z, World world) {
+    protected Shell127cmEntity(EntityType<? extends Shell127cmEntity> type, double x, double y, double z, World world) {
         this(type, world);
     }
 
@@ -47,9 +43,6 @@ public class TorpedoEntity extends PersistentProjectileEntity implements IAnimat
             Entity entity = entityHitResult.getEntity();
             Entity entity2 = this.getOwner();
             entity.damage(DamageSource.mobProjectile(this, (LivingEntity)entity).setProjectile(), 5.0F);
-                boolean bl = this.world.getGameRules().getBoolean(GameRules.DO_MOB_GRIEFING);
-                this.world.createExplosion((Entity) null, this.getX(), this.getY(), this.getZ(), (float) 2.0, bl, bl ?
-                        Explosion.DestructionType.DESTROY : Explosion.DestructionType.NONE);
                 this.discard();
             if (entity2 instanceof LivingEntity) {
                 this.applyDamageEffects((LivingEntity) entity2, entity);

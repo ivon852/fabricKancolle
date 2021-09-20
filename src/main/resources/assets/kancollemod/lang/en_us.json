@@ -2,8 +2,8 @@
     "item.kancollemod.admiral_cap": "Admiral Cap",
     "itemGroup.kancollemod.kanmusu":"Kanmusu",
     "item.kancollemod.shimakaze_spawn_egg": "Spawn Shimakaze",
-    "subtitles.entity.shimakaze.say": "§b[Shimakaze]§rI'm Destroyer Shimakaze. When it comes to speed I'm the best there is, swift like the island breeze!",
-    "subtitles.entity.shimakaze.say2": "§b[Shimakaze]§rGood Morning, Admiral!",
-    "subtitles.entity.shimakaze.say3": "§b[Shimakaze]§rWhat is it, Admiral?",
-    "subtitles.entity.shimakaze.say4": "§b[Shimakaze]§rWant to race? I won't lose."
+    "chat.type.announcement.shimakaze.say": "§b[Shimakaze]§rI'm Destroyer Shimakaze. When it comes to speed I'm the best there is, swift like the island breeze!",
+    "chat.type.announcement.shimakaze.say2": "§b[Shimakaze]§rGood Morning, Admiral!",
+    "chat.type.announcement.shimakaze.say3": "§b[Shimakaze]§rWhat is it, Admiral?",
+    "chat.type.announcement.shimakaze.say4": "§b[Shimakaze]§rWant to race? I won't lose."
 }
