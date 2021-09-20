@@ -100,7 +100,7 @@ public class ShimakazeEntity extends AbstractKanmusuEntity implements IAnimatabl
     }
 
     //生成連裝砲醬， minecraft:spawn_entity
-
+/*
     public boolean summon127 = false;
 
     public void tick() {
@@ -111,7 +111,7 @@ public class ShimakazeEntity extends AbstractKanmusuEntity implements IAnimatabl
             this.summon127 = true;
         }
     }
-
+*/
     /*
     攻擊行為
     minecraft:shooter
